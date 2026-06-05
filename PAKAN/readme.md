@@ -29,9 +29,12 @@ Berikut adalah konfigurasi perkabelan antara NodeMCU ESP8266 dengan seluruh komp
 
 | **Sensor HC-SR04** |
 | | VCC | Vin / 5V | Vin | Daya Positif Sensor |
-| | GND | GND | GND | Ground |
-| | TRIG | 5 | D1 | Trigger Gelombang |
-| | ECHO | 4 | D2 | Penerima Pantulan Gelombang |
+| 
+| GND | GND | GND | Ground |
+| 
+| TRIG | 5 | D1 | Trigger Gelombang |
+| 
+| ECHO | 4 | D2 | Penerima Pantulan Gelombang |
 
 | **Sensor DHT11** |
 | | VCC | 3.3V | 3V3 | Daya Positif Sensor |
@@ -40,15 +43,18 @@ Berikut adalah konfigurasi perkabelan antara NodeMCU ESP8266 dengan seluruh komp
 
 | **Buzzer** | 
 | | Positif (+) | 14 | D5 | Aktuator Alarm Pakan Habis |
-| | Negatif (-) | GND | GND | Ground |
+| 
+| Negatif (-) | GND | GND | Ground |
 
 | **LED Merah** | 
 | | Anoda (+) | 15 | D8 | Indikator Kelembapan Bahaya |
-| | Katoda (-) | GND (via Resistor) | GND | Ground |
+| 
+| Katoda (-) | GND (via Resistor) | GND | Ground |
 
 | **LED Kuning** | 
 | | Anoda (+) | 16 | D0 | Indikator Kelembapan Waspada |
-| | Katoda (-) | GND (via Resistor) | GND | Ground |
+| 
+| Katoda (-) | GND (via Resistor) | GND | Ground |
 
 ---
 
